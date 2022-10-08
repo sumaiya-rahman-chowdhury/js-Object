@@ -16,3 +16,12 @@ const person2 = {
 };
 person2.age2 = 55;
 document.getElementById("p03").innerHTML=person2.age2;
+const person3 = {
+	firstName3 :"Smith",
+	lastName3 : "Jones",
+	age3 :56,
+	get agee3(){
+		return this.age3;
+	}
+}
+document.getElementById("p04").innerHTML=person3.age3;
